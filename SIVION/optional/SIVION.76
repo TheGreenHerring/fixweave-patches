@@ -1,0 +1,26 @@
+@RemovePassword
+'Optional playability fix
+'for Sivion v2.00g:
+'Removes the initial password requirement
+'to play the game (and the associated
+'Barney joke).
+'
+'-The Green Herring
+' April 22, 2022
+#put at 35 18 empty
+#put at 35 19 empty
+#put at 36 20 13 0 line
+#put at 37 20 13 0 line
+#put at 38 20 13 0 line
+#put at 39 20 13 0 line
+#put at 40 20 13 0 line
+#put at 41 20 13 0 line
+#put at 42 20 13 0 line
+#put at 43 20 13 0 line
+#put at 44 20 13 0 line
+#put at 45 20 13 0 line
+#put at 46 20 13 0 line
+#put at 47 20 13 0 line
+#put at 5 17 empty
+#put at 5 17 5 0 object
+#pset at 5 17 p1 175

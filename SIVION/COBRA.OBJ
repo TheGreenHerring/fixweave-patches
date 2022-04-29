@@ -1,0 +1,71 @@
+@Cobra
+#End
+:Touch
+#Zap Touch
+Cobra: Who are you?
+/i/i/i/i/i/i/i/i
+Rook: Nice talking cobra.
+/i/i/i/i/i/i/i/i
+Cobra: Ssssshut up.  Who are you?
+/i/i/i/i/i/i/i/i
+Rook: Fred!.
+/i/i/i/i/i/i/i/i
+Cobra: Ah!  Tasty little Fred!.  This may
+/i/i/i/i/i/i/i/i
+prove to be an appetizing meal.
+/i/i/i/i/i/i/i/i
+Rook: Especially with a light wine.  Not.
+/i/i/i/i/i/i/i/i
+Why not someone else?  Or a favor...
+/i/i/i/i/i/i/i/i
+Cobra: What could you possssibly offer?  
+/i/i/i/i/i/i/i/i
+I ssssee no meat upon you...
+/i/i/i/i/i/i/i/i
+Rook: How about a pretty gem?
+/i/i/i/i/i/i/i/i
+Cobra: Ah!  A pretty jewel!  I want all
+/i/i/i/i/i/i/i/i
+the gemssss you can give me.
+/i/i/i/i/i/i/i/i
+Rook: But...
+/i/i/i/i/i/i/i/i
+Cobra: Do it or ssssuffer my wrath.
+/i/i/i/i/i/i/i/i
+Rook decides to:
+
+!x1; Give all of his gems.
+!x2; Give some of his gems.
+!x3; Give none of his gems.
+#End
+:X1
+ 
+Rook sets all of his gems by the cobra.
+ 
+#Cycle 1
+/i
+:Do
+#Take Gems 1 #Yo 
+#Do
+
+:Yo
+#Cycle 3
+The cobra eats each gem.
+/i/i/i/i/i/i
+Cobra: Excccellent.  Now I will leave.
+/i/i/i/i/i/i/i/i
+The cobra slithers into an unseen hole
+and is gone.
+#die
+
+:X2
+Cobra: I sssense that you hold gemss back.
+/i/i/i/i/i/i/i/i
+:X3
+Without warning, the cobra lunges it fangs
+into Rook's lungs.  The poison acts
+immediately, ands Rook falls to the ground
+only to be squeezed to death by the snake
+and then devoured.
+#Play i--cdhd#dwc
+#EndGame

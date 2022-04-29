@@ -1,0 +1,13 @@
+@LockMechanismFix
+'The replacement program loaded below
+'fixes a program error where the final
+'component of the mechanism opening the
+'vault lock errors out because it tries
+'to use "#Go" without a direction to run
+'a "Go" label. This allows the vault to
+'be opened as intended.
+'
+'-The Green Herring
+'-April 22, 2022
+'
+#load at 17 5 LOCKMECH

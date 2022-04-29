@@ -1,0 +1,53 @@
+@Captain
+#End
+
+:Touch
+#If Torture then #Send Yo
+Captain: Hello.  I'm captain of the guard.
+#End
+
+:Yo
+#Lock
+#Clear Torture
+#Zap Touch
+Rook repeats what the prisoner said.
+/i/i/i/i/i/i/i/i
+King: I do recall a passage being around
+/i/i/i/i/i/i/i/i
+here, but I'm not quite sure.....
+/i/i/i/i/i/i/i/i
+Captain: I think it's right up here.....
+#Cycle 1
+/n/n/n/n/n
+#Cycle 3
+Captain: Lets see....
+/i/i/i/i/i/i/i/i/i/i
+Here!
+/i/i
+#Play 59
+#Put N White Passage
+#Unlock
+#End
+
+:Touch
+#Lock
+Captain: Are you ready?
+/i/i/i/i/i/i/i/i
+#IF Garlic Then #Ko
+Rook: Not yet!
+#Unlock
+#End
+
+:Ko
+#Zap Touch
+#Clear Garlic
+Rook sprinkles garlic on four arrows.
+/i/i/i/i/i/i/i/i
+Rook: Oui, oui!
+/W
+#Unlock
+#End
+
+:Touch
+Captain: Bien jour!
+#End

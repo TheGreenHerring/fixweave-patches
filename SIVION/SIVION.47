@@ -1,0 +1,24 @@
+@CobraFix
+'The replacement program loaded below
+'fixes a program error where the Cobra's
+'code errors out when making the correct
+'choice (give away all your gems) from
+'trying to use "#Go" without a direction
+'to run a "Go" label, unless you select
+'the choice while carrying no gems at all.
+'
+'This also fixes a typo in an /i command
+'causing the first two lines of the snake
+'eating the gems to display in one window
+'connected by the idle command chain
+'itself, and the gem-eating messages
+'appearing too fast because of a missing
+'#cycle command; and inserts spaces in
+'before and after "Rook sets down all his
+'gems" so the player can actually read
+'the message before the action occurs.
+'
+'-The Green Herring
+'-April 22, 2022
+'
+#load at 6 20 COBRA

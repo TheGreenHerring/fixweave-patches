@@ -1,0 +1,11 @@
+@CaptainFix
+'The replacement program loaded below
+'fixes a program error where the Captain
+'fails to zap his touch label when Rook
+'tells him what the prisoner said,
+'preventing the player from progressing.
+'
+'-The Green Herring
+'-April 22, 2022
+'
+#load at 25 11 CAPTAIN
