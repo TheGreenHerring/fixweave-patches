@@ -1,0 +1,21 @@
+@CorrectName
+'Change the name on the title screen to
+'match the author's current name.
+'
+'- The Green Herring
+'  April 29, 2022
+#put at 20 25 68 bluetext
+#put at 21 25 97 bluetext
+#put at 22 25 118 bluetext
+#put at 23 25 105 bluetext
+#put at 24 25 100 bluetext
+#put at 25 25 78 bluetext
+#put at 26 25 blue black breakable
+#put at 27 25 blue black breakable
+#put at 28 25 blue black breakable
+#put at 29 25 blue black breakable
+#put at 30 25 blue black breakable
+#put at 31 25 blue black breakable
+#put at 32 25 blue black breakable
+#put at 33 25 blue black breakable
+#put at 34 25 blue black breakable
