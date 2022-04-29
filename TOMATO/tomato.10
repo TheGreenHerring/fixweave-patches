@@ -1,0 +1,10 @@
+@FixExit
+#load at 33 1 blender2
+'Fixes an erroneous attempt to connect
+'the Fight Viper II board to a board where
+'your path from the previous board is
+'blocked, by creating a passage to that
+'board instead.
+'
+'-The Green Herring
+' April 22, 2022

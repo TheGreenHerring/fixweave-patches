@@ -1,0 +1,27 @@
+@Blender2
+#end
+:poof
+#cycle 1
+#char 4
+/i
+#char 254
+/i
+#char 4
+/i
+#char 254
+/i
+#char 4
+/i
+#char 64
+/i
+#char 9
+/i
+#char 7
+/i
+#char 250
+/i
+#char 255
+/at 2 11
+#put at 33 1 0 0 passage
+#pset at 33 1 p3 11
+#end
