@@ -1,0 +1,64 @@
+@SpiderDeath
+'This will check if the guns have been
+'destroyed before causing the Leader
+'Spider to to be reduced to a massive
+'pool of blood^H^H^H^H^H red fakes.
+'
+'This uses Weave functionality, but it
+'should be possible to replicate this in
+'ZZT 3.2 with a complicated array of
+'well-placed objects.
+'
+'- The Green Herring
+'  April 27, 2022
+#if detect at 22 10 dkgray object go i
+#if detect at 24 10 dkgray object go i
+#if detect at 26 10 dkgray object go i
+#if detect at 28 10 dkgray object go i
+#if detect at 31 10 dkgray object go i
+#if detect at 33 10 dkgray object go i
+#if detect at 35 10 dkgray object go i
+#if detect at 37 10 dkgray object go i
+#put at 23 10 dkgreen dkgreen fake
+#put at 25 10 dkgreen dkgreen fake
+#put at 27 10 dkgreen dkgreen fake
+#put at 32 10 dkgreen dkgreen fake
+#put at 34 10 dkgreen dkgreen fake
+#put at 36 10 dkgreen dkgreen fake
+#put at 29 9 dkgreen dkgreen fake
+#put at 30 9 dkgreen dkgreen fake
+#if any white object go i
+#put at 31 4 object
+#load at 31 4 splat
+/i
+#put at 25 6 object
+#load at 25 6 splat
+/i
+#put at 35 7 object
+#load at 35 7 splat
+/i
+#put at 25 4 object
+#load at 25 4 splat
+/i
+#put at 36 6 object
+#load at 36 6 splat
+/i
+#put at 29 4 object
+#load at 29 4 splat
+/i
+#change breakable red fake
+#change dkgray normal red fake
+#put at 29 6 red black fake
+#put at 30 6 red black fake
+#put at 23 7 red black fake
+#put at 23 8 red black fake
+#put at 25 7 red black fake
+#put at 25 8 red black fake
+#put at 27 7 red black fake
+#put at 27 8 red black fake
+#put at 32 7 red black fake
+#put at 32 8 red black fake
+#put at 34 7 red black fake
+#put at 34 8 red black fake
+#put at 36 7 red black fake
+#put at 36 8 red black fake

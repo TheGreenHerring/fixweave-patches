@@ -1,0 +1,14 @@
+@FixSpiders
+'Fixes the spider enemies so that they no
+'longer place red fakes in any direction
+'where they are blocked, preventing them
+'from destroying the walls and each
+'other.
+'
+'- The Green Herring
+'  April 27, 2022
+#load at 30 10 spiders
+#load at 12 16 spiders
+#load at 20 21 spiders
+#load at 39 21 spiders
+#load at 44 15 spiders

@@ -1,0 +1,33 @@
+Mice:ARGH!!!!
+/i
+#shoot seek
+/seek
+#restart
+:shot
+Mouse: OWIE WOWIE!!
+#zap shot
+#shoot seek
+/seek
+#restart
+:shot
+#zap shot
+#shoot seek
+/seek
+#restart
+:shot
+#zap shot
+#shoot seek
+/seek
+#restart
+:shot
+#zap shot
+#shoot seek
+/seek
+#restart
+:shot
+Mouse: AARRRGGGGGHHHHHHHHH!!!!!!!
+#if not blocked n put n red fake
+#if not blocked s put s red fake
+#if not blocked e put e red fake
+#if not blocked w put w red fake
+#become red fake

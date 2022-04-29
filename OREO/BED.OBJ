@@ -1,0 +1,17 @@
+#end
+:touch
+hmmmm Should i go under the bed or not?
+!1;Dont go under
+!2;Reach in to grab something
+!3;Go under
+#end
+:1
+#end
+:2
+#zap !2
+Hmm... AH-HA! I found 5 pennies!
+#give gems 5
+#end
+:3
+Well it's worth a try!
+#become yellow fake

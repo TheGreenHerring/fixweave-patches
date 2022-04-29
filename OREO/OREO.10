@@ -1,0 +1,9 @@
+@AutoSkip
+'Edits the code so that the "skip movie"
+'object will disappear automatically at
+'the end of the cutscene, as opposed to
+'waiting for the player to touch it.
+'
+'- The Green Herring
+'  April 27, 2022
+#load at 4 22 oreo2

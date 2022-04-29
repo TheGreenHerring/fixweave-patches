@@ -1,0 +1,38 @@
+Spider:K-KK-K-K-II-I-III-LL-L-L-....
+/i
+#shoot seek
+/seek
+#restart
+:shot
+Spider:AA-A-A-R-RR-G-GG-H-HH!!
+#zap shot
+#shoot seek
+/seek
+#restart
+:shot
+#zap shot
+#shoot seek
+/seek
+#restart
+:shot
+#zap shot
+#shoot seek
+/seek
+#restart
+:shot
+#zap shot
+#shoot seek
+/seek
+#restart
+:shot
+#zap shot
+#shoot seek
+/seek
+#restart
+:shot
+Spider: DD-D-AA-A-R-N-II-T-TT!!!!!!
+#if not blocked w put w red fake
+#if not blocked e put e red fake
+#if not blocked n put n red fake
+#if not blocked s put s red fake
+#become red fake

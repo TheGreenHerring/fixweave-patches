@@ -1,0 +1,58 @@
+@FixSpiderGuns
+'Fixes the Leader Spider's guns so that
+'they will not destroy the barriers
+'intended to protect them from each
+'other, fixes the water placement
+'preventing two guns from reaching the
+'bottom end, makes more space to shoot
+'the easternmost gun, replaces the
+'pointless keys and doors with a "door"
+'that opens when the gray guns are
+'destroyed, prevents the player from
+'shooting the breakables past one of
+'the final guns, and adds a proper "death"
+'effect for the spider when the guns are
+'destroyed.
+'
+'This uses Weave functionality, but it
+'should be possible to replicate this in
+'ZZT 3.2 with a complicated array of
+'well-placed objects.
+'
+'- The Green Herring
+'  April 27, 2022
+#put at 22 9 fake
+#put at 24 9 fake
+#put at 26 9 fake
+#put at 28 9 fake
+#put at 31 9 fake
+#put at 33 9 fake
+#put at 35 9 fake
+#put at 37 9 fake
+#put at 28 7 fake
+#put at 31 7 fake
+#put at 29 9 dkgray black solid
+#put at 30 9 dkgray black solid
+#put at 29 6 dkgray object
+#pset at 29 6 p1 177
+#put at 30 6 dkgray object
+#pset at 30 6 p1 177
+#change dkblue key dkgreen dkgreen fake
+#change yellow key dkgreen dkgreen fake
+#put at 31 17 blue white water
+#put at 32 17 blue black solid
+#put at 33 17 blue white water
+#put at 33 18 dkgreen dkgreen fake
+#put at 37 20 dkgreen dkgreen fake
+#load at 22 10 spdrgun1
+#load at 24 10 spdrgun1
+#load at 26 10 spdrgun1
+#load at 28 10 spdrgun1
+#load at 31 10 spdrgun1
+#load at 33 10 spdrgun1
+#load at 35 10 spdrgun1
+#load at 37 10 spdrgun1
+#load at 29 7 spdrgun2
+#load at 30 7 spdrgun3
+#put at 18 7 dkgreen dkgreen object
+#load at 18 7 spdrdeth

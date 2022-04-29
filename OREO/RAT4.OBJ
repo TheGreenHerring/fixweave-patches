@@ -1,0 +1,33 @@
+Rat#4: TI-ME TOO D-IE!!
+/i
+#shoot seek
+/seek
+#restart
+:shot
+Rat#4: OOOO!! OUCHIE!!!
+#zap shot
+#shoot seek
+/seek
+#restart
+:shot
+#zap shot
+#shoot seek
+/seek
+#restart
+:shot
+#zap shot
+#shoot seek
+/seek
+#restart
+:shot
+#zap shot
+#shoot seek
+/seek
+#restart
+:shot
+Rat#4: AAAHHH#HHH!#$%@#Y%
+#if not blocked n put n red fake
+#if not blocked s put s red fake
+#if not blocked e put e red fake
+#if not blocked w put w red fake
+#become red fake

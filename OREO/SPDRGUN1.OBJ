@@ -1,0 +1,41 @@
+Leader Spider:T-IME T-OO D-I-E, HAMSTER!
+/i
+#if blocked rndp rndne shoot s
+#else try i
+#restart
+:shot
+KKKK-SSSSSSS!!!!
+#zap shot
+/i#if blocked rndp rndne shoot s
+#else try i
+#restart
+:shot
+#zap shot
+#if blocked rndp rndne shoot s
+#else try i
+#restart
+:shot
+#zap shot
+#if blocked rndp rndne shoot s
+#else try i
+#restart
+:shot
+#zap shot
+#if blocked rndp rndne shoot s
+#else try i
+#restart
+:shot
+#zap shot
+#if blocked rndp rndne shoot s
+#else try i
+#restart
+:shot
+#zap shot
+#if blocked rndp rndne shoot s
+#else try i
+#restart
+:shot
+O-OO O-U-C-H-I-E!!!!!
+#put n normal
+#put s red black fake
+#become red fake

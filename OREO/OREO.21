@@ -1,0 +1,54 @@
+@FixEnding
+'Fixes the ending board so that the
+'complete dialog can be read, and has the
+'"skip movie" object disappear
+'automatically at the end of the cutscene
+'as opposed to waiting for the player to
+'touch it.
+'
+'- The Green Herring
+'  April 27, 2022
+#load at 19 23 troops
+#load at 20 23 troops
+#load at 21 23 troops
+#load at 22 23 troops
+#load at 23 23 troops
+#load at 24 23 troops
+#load at 25 23 troops
+#load at 26 23 troops
+#load at 27 23 troops
+#load at 28 23 troops
+#load at 29 23 troops
+#load at 30 23 troops
+#load at 31 23 troops
+#load at 32 23 troops
+#load at 33 23 troops
+#load at 34 23 troops
+#load at 35 23 troops
+#load at 36 23 troops
+#load at 37 23 troops
+#load at 38 23 troops
+#load at 39 23 troops
+#load at 19 24 troops
+#load at 20 24 troops
+#load at 21 24 troops
+#load at 22 24 troops
+#load at 23 24 troops
+#load at 24 24 troops
+#load at 25 24 troops
+#load at 26 24 troops
+#load at 27 24 troops
+#load at 28 24 troops
+#load at 29 24 troops
+#load at 30 24 troops
+#load at 31 24 troops
+#load at 32 24 troops
+#load at 33 24 troops
+#load at 34 24 troops
+#load at 35 24 troops
+#load at 36 24 troops
+#load at 37 24 troops
+#load at 38 24 troops
+#load at 39 24 troops
+#put at 47 10 black black object
+#load at 47 10 endtext

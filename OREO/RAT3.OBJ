@@ -1,0 +1,33 @@
+Rat#3: ARGH GET HIM!!
+/i
+#shoot seek
+/seek
+#restart
+:shot
+Rat#3: OOF! AAAAAAAAAAARRRRRGGGGHHHHH!!!
+#zap shot
+#shoot seek
+/seek
+#restart
+:shot
+#zap shot
+#shoot seek
+/seek
+#restart
+:shot
+#zap shot
+#shoot seek
+/seek
+#restart
+:shot
+#zap shot
+#shoot seek
+/seek
+#restart
+:shot
+Rat#3: ILL GET MY REVENGE!!!!!11111...
+#if not blocked n put n red fake
+#if not blocked s put s red fake
+#if not blocked e put e red fake
+#if not blocked w put w red fake
+#become red fake
