@@ -1,0 +1,17 @@
+#cycle 1
+#end
+:touch
+#lock
+#char 47
+/s
+#char 179
+/e
+#cycle 2
+/i/i/i/i/i/i/i/i/i/i/i/i/i/i
+#cycle 1
+#char 47
+/w
+#char 196
+/n
+#unlock
+#end

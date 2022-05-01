@@ -1,0 +1,23 @@
+#cycle 1
+#end
+:touch
+#lock
+#zap touch
+#give ammo 50
+:touch
+#lock
+#put w cyan fake
+#char 92
+/w
+#put s cyan fake
+#char 196
+/s
+#cycle 2
+/i/i/i/i/i/i/i/i/i/i/i/i/i
+#cycle 1
+#char 92
+/n
+#char 179
+/e
+#unlock
+#end

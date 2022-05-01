@@ -1,0 +1,35 @@
+@Enemy
+#cycle 1
+#end
+:goer
+#shoot s
+#go rndp rndne
+#go rndp rndne
+#go rndp rndne
+#shoot s
+/i/i
+#send goer
+:shot
+#lock
+AAAAAIIIIIIIEEEE!!!
+#char 219
+/i
+#char 178
+/i
+#char 177
+/i
+#char 176
+/i
+#char 64
+/i
+#char 9
+/i
+#char 7
+/i
+#char 249
+/i
+#char 250
+/i
+#char 255
+#become cyan fake
+#end

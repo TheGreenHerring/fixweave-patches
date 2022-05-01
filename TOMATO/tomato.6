@@ -1,0 +1,26 @@
+@FixOutside1
+'by The Green herring
+'April 30, 2022
+
+'Alter the structure of this fight so that
+'you have to kill both of the Henchmen
+'to open the exit.
+
+'Fix the Henchmen so that they cannot be
+'shot until the fight starts, and do not
+'repeat their opening message together.
+#load at 27 7 henchmen
+#load at 33 7 henchmen
+#load at 29 5 henchmes
+
+'Add wall marker/checker programs.
+#put at 31 1 invisible
+#put at 31 2 object
+#put at 31 3 invisible
+#load at 31 2 wallchek
+#put at 32 1 object
+#pset at 32 1 p1 178
+#load at 32 1 wallmrk1
+#put at 32 3 object
+#pset at 32 3 p1 178
+#load at 32 3 wallmrk2

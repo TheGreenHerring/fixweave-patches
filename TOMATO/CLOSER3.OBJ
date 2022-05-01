@@ -1,0 +1,8 @@
+@Closer
+#cycle 1
+#if contact okie
+/i
+#send restart
+:okie
+#send BearDoor:close
+#end

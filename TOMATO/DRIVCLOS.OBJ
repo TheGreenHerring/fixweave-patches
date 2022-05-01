@@ -1,0 +1,9 @@
+
+:loop
+#if contact okie
+/i/i
+#send loop
+:okie
+/i/i/i/i/i/i/i/i/i
+/e
+#end

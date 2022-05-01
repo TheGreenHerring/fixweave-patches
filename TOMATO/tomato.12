@@ -1,0 +1,71 @@
+@FixDriveEm
+'by The Green Herring
+'April 30, 2022
+
+'Fix the loop for closing off the entrance
+'by adding a line break to the start (yes,
+'you have to do this if you're using a
+'label at the start without a name).
+#load at 32 25 drivclos
+'Then, for ZZT 3.2 pre-patched world
+'purposes, briefly move the object away to
+'add a solid to its location, then place
+'it back on top of the solid so a hole is
+'not left behind when it moves. This is
+'because the unpatched code's attempt to
+'"#put w blue solid" to fix that will not
+'work in ZZT 3.2 due to an infamous bug
+'that prevents putting anything on the
+'bottom row of the board.
+#shove at 32 25 at 33 24
+#put at 32 25 blue black solid
+#shove at 33 24 at 32 25
+
+'Do not cue the enemies to act until
+'you're at the controls, to avoid cheap
+'hits.
+#put at 1 18 object
+#pset at 1 18 p1 219
+#load at 1 18 drivchek
+
+'Ensure that you must kill all of the
+'enemies on the board to escape, and not
+'just the one furthest on the right. The
+'least code-intensive method is to recolor
+'them yellow and have the boulder check
+'if all the yellow objects are gone before
+'opening. (Yellow is the only color not
+'used by an object on the unpatched board
+'that is accessible with code in ZZT 3.2.)
+#load at 4 3 driv_nme
+#load at 8 3 driv_nme
+#load at 13 3 driv_nme
+#load at 18 3 driv_nme
+#load at 23 3 driv_nme
+#load at 28 3 driv_nme
+#load at 34 3 driv_nme
+#load at 40 3 driv_nme
+#load at 45 3 driv_nme
+#load at 50 3 driv_nme
+#load at 55 3 driv_nme
+#color at 4 3 yellow dkcyan
+#color at 8 3 yellow dkcyan
+#color at 13 3 yellow dkcyan
+#color at 18 3 yellow dkcyan
+#color at 23 3 yellow dkcyan
+#color at 28 3 yellow dkcyan
+#color at 34 3 yellow dkcyan
+#color at 40 3 yellow dkcyan
+#color at 45 3 yellow dkcyan
+#color at 50 3 yellow dkcyan
+#color at 55 3 yellow dkcyan
+#pset at 48 20 cycle 1
+#load at 48 20 boulder
+
+'Prevent the "you lose" object from
+'activating its shot label over and over,
+'loop its endgame state to prevent being
+'able to continue playing, and lock it
+'(and protect it) when you win to prevent
+'it from being hit by a stray bullet.
+#load at 21 23 youlose

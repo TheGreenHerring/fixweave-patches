@@ -1,0 +1,19 @@
+@Thug
+#end
+:go
+#char 2
+/i/i
+#restore shot
+:okie
+#go seek
+#go seek
+#shoot seek
+#go seek
+#go seek
+#shoot seek
+/i
+#send okie
+'shot
+Owie!
+#die
+#end

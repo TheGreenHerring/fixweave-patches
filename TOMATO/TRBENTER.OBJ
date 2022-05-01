@@ -1,0 +1,31 @@
+#end
+:touch
+#lock
+#give ammo 25
+More training!
+#cycle 1
+#char 92
+/e
+#char 196
+/n
+/i/i/i/i/i/i/i/i/i/i
+#char 92
+/s
+#char 219
+/w
+#char 178
+/i
+#char 177
+/i
+#char 176
+/i
+#char 64
+/i
+#char 9
+/i
+#char 7
+/i
+#char 250
+/i
+#die
+#end

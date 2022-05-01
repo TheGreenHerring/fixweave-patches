@@ -1,0 +1,8 @@
+@Door
+#if not any white object do
+/i#restart
+:do
+#cycle 1
+#char 196
+/n
+#end

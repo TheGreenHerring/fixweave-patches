@@ -1,0 +1,18 @@
+@BearDoor
+:loope
+/i
+#if any bear loope
+/i/i
+#cycle 1
+#char 47
+/w
+#char 196
+/n
+#end
+:close
+#cycle 1
+#char 47
+/s
+#char 179
+/e
+#end

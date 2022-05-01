@@ -1,0 +1,18 @@
+@FixFightViper1
+'by The Green Herring
+'April 30, 2022
+
+'Fix the object that opens into the arena
+'so that you cannot open it over and over.
+#load at 4 12 fv1enter
+
+'Fix Viper Man so that he cannot be shot
+'until he appears, and cannot be shot
+'during his hit animation to restart it.
+#load at 30 6 viper1
+
+'Fix the first component of the exit
+'animation to not include accidental
+'whitespace before an idle command that
+'would cause " /i" to appear on screen.
+#load at 57 12 entry2

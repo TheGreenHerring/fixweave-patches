@@ -1,0 +1,19 @@
+@FixTrainingB
+'by The Green Herring
+'April 30, 2022
+
+'Fix the object opening into the arena
+'so that you cannot "open" it over and
+'over again, and give extra ammo for
+'balance reasons.
+#load at 4 12 trbenter
+
+'Fix the "Lion Tamer" door so that it
+'only closes after you've actually gone
+'through it, rather than wait 19 ticks
+'on #cycle 3 and then close itself to
+'softlock the game for no good reason.
+#load at 57 12 liontamr
+#put at 59 11 object
+#pset at 59 11 p1 178
+#load at 59 11 closer2

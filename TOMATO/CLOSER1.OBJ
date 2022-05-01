@@ -1,0 +1,7 @@
+@Closer
+#if contact okie
+/i
+#send restart
+:okie
+#send Ruffian:close
+#end

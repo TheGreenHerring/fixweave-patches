@@ -1,0 +1,10 @@
+@Boulder
+#cycle 1
+#if not any yellow object do
+/i
+#restart
+:do
+#YouLose:do
+You win! Go east.
+#die
+#end

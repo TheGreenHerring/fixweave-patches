@@ -1,0 +1,74 @@
+@EvilDude
+#end
+:poof
+#cycle 1
+#lock
+#char 42
+/i
+#char 43
+/i
+#char 120
+/i
+#char 88
+/i
+#char 197
+/i
+#char 88
+/i
+#char 120
+/i
+#char 43
+/i
+#char 42
+/i
+#char 234
+/i/i/i
+Goodbye, Tomathoe Man!
+/i
+/e
+#put w cyan fake
+#unlock
+:goer
+#go seek
+#shoot seek
+#shoot seek
+/seek
+#shoot seek
+#shoot seek
+#go seek
+/seek
+/i
+#send goer
+:shot
+AAAAUUUUUGGGGGHHHHHH!!!!!
+/i
+#zap shot
+#send goer
+:shot
+Nooo! I'm losing! Time to leash my weapon.
+/i
+#Zapper1:poof
+#zap shot
+#send goer
+:shot
+#lock
+AAAAIIIIEEEEE!
+/i
+#Zapper1:bye
+#cycle 1
+#char 85
+/i
+#char 64
+/i
+#char 9
+/i
+#char 7
+/i
+#char 249
+/i
+#char 250
+/i
+#char 255
+#Wall:unpoof
+#die
+#end

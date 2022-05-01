@@ -1,0 +1,35 @@
+@Entry
+#end
+:poof
+#lock
+#cycle 1
+#char 219
+/i
+#char 221
+/i
+#char 223
+/i
+#char 222
+/i
+#char 220
+/i
+#char 219
+/i
+#char 221
+/i
+#char 223
+/i
+#char 222
+/i
+#char 64
+/i
+#char 9
+/i
+#char 7
+/i
+#char 250
+/i
+#char 255
+#Entry2:poof
+#die
+#end

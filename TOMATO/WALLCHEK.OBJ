@@ -1,0 +1,9 @@
+@WallCheck
+#if not blocked n checkA
+/i#restart
+:checkA
+#if not blocked s do
+/i#restart
+:do
+#WallBlock:dye
+#die

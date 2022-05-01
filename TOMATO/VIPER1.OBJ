@@ -1,0 +1,55 @@
+@ViperMan
+#end
+:welcome
+Well, Tomato Man! I see you made it
+/i/i/i/i/i
+here. Good luck, 'cause I'm gonna
+/i/i/i/i/i
+kick your BUTT!
+/i/i/i/i
+#cycle 1
+#char 250
+/i
+#char 249
+/i
+#char 7
+/i
+#char 9
+/i
+#char 15
+/i
+#char 1
+/i
+#char 2
+/i/i/i
+Good night, Yomayo Man!
+/i/i
+#restore shot
+:loop
+/seek
+#shoot seek
+/seek
+#shoot seek
+/seek
+#shoot seek
+/seek
+#shoot seek
+#shoot seek
+/i
+#send loop
+'shot
+#lock
+I'm a FAKE, you LOSER!
+/i/i/i
+#char 9
+/i
+#char 7
+/i
+#char 249
+/i
+#char 250
+/i
+#char 255
+#Entry:poof
+#die
+#end

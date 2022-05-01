@@ -1,0 +1,45 @@
+@FixOutside4
+'by The Green Herring
+'April 30, 2022
+
+'Fix the regular doors so you cannot open
+'them over and over. Also, make the second
+'regular door give 50 ammo due to the
+'likelihood of running out of ammo when
+'you get there; and have it put fakes on
+'initial touch to push aside any ruffians
+'blocking it.
+#load at 3 17 o4_door1
+#load at 45 12 o4_door2
+#load at 2 11 o4_door3
+
+'Make it so that the bear door will not
+'close until you have actually gone
+'through it, rather than wait 21 #cycle 2
+'idles and then close to softlock the
+'game for no reason. Also, fix the "ERR:
+'Bad command LOOPE" bug; this is as easy
+'as adding an extra line break at the
+'start (yes, really), but it also needs
+'a name for the closer program to use.
+'(The closer program is loaded into an
+'object whose original code is no longer
+'needed due to the next bugfix after this
+'one.)
+#load at 45 21 beardoor
+#shove at 31 9 at 48 20
+#put at 31 9 cyan black solid
+#load at 48 20 closer3
+
+'Color the Evil Dude's door red from the
+'start rather than having to use another
+'object to do the same thing; and make it
+'so you can't open it over and over.
+#color at 30 9 red black
+#load at 30 9 evildoor
+
+'Fix the Evil Dude so he cannot be shot
+'until his attack program starts; and so
+'he cannot be shot during his death
+'animation to restart it.
+#load at 3 3 evildude

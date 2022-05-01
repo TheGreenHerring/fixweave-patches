@@ -1,0 +1,15 @@
+@Thing
+#cycle 1
+#end
+:okay
+#if blocked s okayB
+#lock
+/s
+#put n red solid
+#unlock
+#end
+:okayB
+#EndBoss:okayer
+/i#okayB
+:finish
+#become red solid

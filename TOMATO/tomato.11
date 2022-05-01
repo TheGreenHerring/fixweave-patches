@@ -1,0 +1,34 @@
+@FixForestDone
+'by The Green Herring
+'April 30, 2022
+
+'Fix a major design error that prevents
+'completion of the game by opening a path
+'from the previous board into this one.
+'Yes, even if you'd be blocked from
+'entering this board otherwise, this
+'code still runs and fixes it for you so
+'that you enter this board anyway!
+#put at 33 24 empty
+#put at 33 25 empty
+'Also color the sides of the new path for
+'consistency with the path up top.
+#color at 32 25 black dkblue
+#color at 34 25 black dkblue
+
+'Fix the "Thing" that controls the life
+'bar to use "?s" instead of "/s" so it
+'will proceed with its program even if
+'it's blocked trying to move south; name
+'its "reached the end" label differently
+'from the normal one; and loop its attempt
+'to relay to the boss until he receives
+'the signal, all to prevent a softlock by
+'shooting the boss over and over.
+#load at 5 4 thing
+
+'Fix the End Boss to lock himself when he
+'dies, and also fix a one-character typo
+'preventing one frame of his death
+'animation from being shown.
+#load at 33 4 endboss

@@ -1,0 +1,30 @@
+#end
+:touch
+#lock
+#cycle 1
+#char 29
+/i
+#char 27
+/i
+#char 26
+/i
+#char 24
+/i
+#char 25
+/i
+#char 27
+/i
+#char 26
+/i
+#char 64
+/i
+#char 9
+/i
+#char 7
+/i
+#char 250
+/i
+#char 255
+#ViperMan:welcome
+#die
+#end

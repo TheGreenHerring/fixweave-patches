@@ -1,0 +1,8 @@
+@WallMark
+#end
+:do
+#zap do
+#put w empty
+#end
+:do
+#end

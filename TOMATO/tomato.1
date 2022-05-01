@@ -1,0 +1,22 @@
+@FixOpeningBoard
+'by The Green Herring
+'April 30, 2022
+'
+'Fix the "scroll" on the opening board
+'so that it cannot be toggled over and
+'over again, and so that it will loop its
+'dialog prompt if you close the window
+'without selecting a choice.
+#load at 32 12 bginscrl
+
+'Move the first component of the exit
+'animation away in order to remove the
+'water tile beneath it, then move it back,
+'to prevent a Weave-exclusive softlock
+'owing to fixing #die to respect the
+'"under" element and color of any object
+'that calls it.
+#shove at 57 12 w
+#put at 57 12 empty
+#shove at 56 12 e
+#color at 57 12 blue dkblue

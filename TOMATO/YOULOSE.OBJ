@@ -1,0 +1,12 @@
+@YouLose
+#end
+:shot
+#zap shot
+Sorry, you lose.
+/i/i/i/i/i/i/i/i
+:loop
+#endgame
+/i/i/i/i/i/i/i#send loop
+:do
+#lock
+#put w invisible

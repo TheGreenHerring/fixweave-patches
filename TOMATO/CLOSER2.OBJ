@@ -1,0 +1,7 @@
+@Closer
+#if contact okie
+/i
+#send restart
+:okie
+#send Lion:close
+#end

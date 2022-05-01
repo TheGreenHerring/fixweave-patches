@@ -1,0 +1,24 @@
+@Lion tamer
+:loop
+#if not any lion okie
+/i/i
+#send loop
+:okie
+#cycle 1
+#char 47
+/w
+#char 196
+/n
+#end
+:close
+#cycle 1
+#char 47
+/s
+#char 222
+/e
+:loop1
+#char 221
+/i
+#char 222
+/i
+#send loop1

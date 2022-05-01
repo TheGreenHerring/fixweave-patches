@@ -1,0 +1,103 @@
+@Viper
+#end
+:poof
+Ready to meet your doom, Tomito Man?
+/i/i/i/i/i
+You: Toma--
+/i/i
+I know, "Tomato Man!".
+/i/i/i
+#cycle 1
+#char 250
+/i
+#char 249
+/i
+#char 7
+/i
+#char 9
+/i
+#char 42
+/i
+#char 43
+/i
+#char 120
+/i
+#char 88
+/i
+#char 197
+/i
+#char 88
+/i
+#char 120
+/i
+#char 43
+/i
+#char 42
+/i
+#char 21
+Good luck, Tomato Man.
+:goer
+#shoot seek
+/seek
+/seek
+#shoot seek
+#shoot seek
+#shoot seek
+/seek
+/seek
+/i
+#send goer
+:shot
+#Anger:high
+#Shot:owie
+AAAUUUUUGGGGHHHH!!!!
+/i
+#zap shot
+#send goer
+:shot
+#Anger1:superhi
+#Shot:owie
+OOOOFFFF!!!!!
+/i
+#zap shot
+#send goer
+:shot
+#Shot:owie
+AAAKKKKKK!!!!
+/i
+#zap shot
+#send goer
+:shot
+#Shot:owie
+AAAAAIIIIIEEEE!!!!!
+/i
+#zap shot
+#send goer
+:shot
+#Shot:owie
+Nooooooo!!!!!!!!!
+#end
+:bye
+#cycle 1
+#char 219
+/i
+#char 178
+/i
+#char 177
+/i
+#char 176
+/i
+#char 64
+/i
+#char 9
+/i
+#char 7
+/i
+#char 249
+/i
+#char 250
+/i
+#char 255
+#Blender:poof
+#die
+#end

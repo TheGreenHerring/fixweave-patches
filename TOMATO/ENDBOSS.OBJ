@@ -1,0 +1,51 @@
+@EndBoss
+#cycle 1
+So, you thought you could beat
+/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i
+me, did you?
+/i/i/i/i/i/i/i
+Well, it's the other way around!
+/i/i/i/i/i/i/i/i/i/i
+:looper
+#shoot seek
+#shoot seek
+#shoot n
+#shoot e
+#shoot w
+#shoot s
+/seek
+/seek
+/seek
+#shoot seek
+#looper
+:shot
+#lock
+AAAAKKK!!!!!
+#Thing:okay
+#throwstar seek
+#unlock
+#looper
+:okayer
+#lock
+#Thing:finish
+Nooooo!!!!!
+#char 178
+/i
+#char 177
+/i
+#char 76
+/i
+#char 64
+/i
+#char 9
+/i
+#char 7
+/i
+#char 249
+/i
+#char 250
+/i
+#char 255
+#change green line empty
+#change line line
+#die

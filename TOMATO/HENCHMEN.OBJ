@@ -1,0 +1,70 @@
+@Henchmen
+#end
+:poof
+#cycle 1
+#char 250
+/i
+#char 249
+/i
+#char 248
+/i
+#char 7
+/i
+#char 9
+/i
+#char 42
+/i
+#char 43
+/i
+#char 120
+/i
+#char 88
+/i
+#char 197
+/i
+#char 88
+/i
+#char 120
+/i
+#char 43
+/i
+#char 42
+/i
+#char 21
+/i/i
+#Message:do
+#end
+:do
+#restore shot
+#cycle 2
+:loop
+#go seek
+#go seek
+#shoot seek
+#go seek
+#go seek
+#shoot seek
+/i/i
+#send loop
+'shot
+#lock
+AAAAAUUUUGGGGHHHHH!
+#put n red fake
+#put e red fake
+#put w red fake
+#put s red fake
+/i
+#cycle 1
+#char 64
+/i
+#char 9
+/i
+#char 7
+/i
+#char 249
+/i
+#char 250
+/i
+#char 255
+#WallMark:do
+#become red fake

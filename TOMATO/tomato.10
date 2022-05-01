@@ -1,0 +1,12 @@
+@FixViperFight2
+'by The Green Herring
+'April 30, 2022
+
+'Fix the ability to softlock the game by
+'shooting Viper too much; his unpatched
+'code doesn't #zap shot on he last hit, so
+'it can run in the middle of its death
+'animation and thus never open the exit
+'out of the board since the life meter's
+'"death" switch can only be thrown once.
+#load at 30 5 viper2

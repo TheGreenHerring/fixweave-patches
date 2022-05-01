@@ -1,0 +1,15 @@
+@FixYes
+'by The Green Herring
+'April 30, 2022
+
+'Remove a fade effect object that does
+'nothing other than cause performance
+'issues with a no-idle loop from not
+'finding any green normals (suggesting the
+'text was originally drawn with them and
+'underwent a fade effect w/ this object).
+#put at 1 1 red black empty
+
+'Fix the "Yes" object so it cannot be
+'activated over and over.
+#load at 4 23 yes

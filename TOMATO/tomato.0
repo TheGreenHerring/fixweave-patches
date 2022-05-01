@@ -1,0 +1,30 @@
+@FixTitleScreen
+'by The Green Herring
+'April 30, 2022
+
+'Reinitialize the title screen to 
+'compensate for the world having been
+'saved after being opened at the title
+'screen (which halts it during execution).
+#restore Word:welcome
+#unlock at 60 25
+#pset at 21 18 p1 255
+#pset at 22 18 p1 255
+#pset at 23 18 p1 255
+#pset at 24 18 p1 255
+#pset at 25 18 p1 255
+#pset at 26 18 p1 255
+#pset at 21 18 p1 255
+#pset at 28 18 p1 255
+#pset at 29 18 p1 255
+#pset at 30 18 p1 255
+#pset at 31 18 p1 255
+#pset at 32 18 p1 255
+#pset at 34 18 p1 255
+#pset at 35 18 p1 255
+#pset at 36 18 p1 255
+#pset at 19 18 p1 249
+#pset at 38 18 p1 249
+#change green solid red solid
+#change purple solid green solid
+#others:restart

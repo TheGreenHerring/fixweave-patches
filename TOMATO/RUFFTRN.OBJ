@@ -1,0 +1,19 @@
+@Ruffian Trainer
+:loop
+#if not any ruffian okie
+/i/i
+#send loop
+:okie
+#cycle 1
+#char 47
+/w
+#char 196
+/n
+#end
+:close
+#cycle 1
+#char 47
+/s
+#char 179
+/e
+#end

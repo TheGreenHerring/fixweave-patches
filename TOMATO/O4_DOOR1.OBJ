@@ -1,0 +1,18 @@
+@door
+#cycle 1
+#end
+:touch
+#lock
+#char 47
+/e
+#char 196
+/s
+#cycle 2
+/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i
+#cycle 1
+#char 47
+/n
+#char 179
+/w
+#unlock
+#end

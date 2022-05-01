@@ -1,0 +1,175 @@
+@Yes
+#end
+:touch
+#zap touch
+And so, Tomato Man killed Viper Man to
+save the day.
+/i
+But one question still remains:
+/i/i/i/i/i
+What happened to Viper Man?
+/i/i/i
+#Viper:return
+#end
+:continue
+#lock
+Let's roll the credits!
+/i/i/i
+#cycle 1
+<>
+/i
+< >
+/i
+<  >
+/i
+<   >
+/i
+<    >
+/i
+<     >
+/i
+<      >
+/i
+<       >
+/i
+<        >
+/i
+<Credits:>
+/i
+< Credits: >
+/i
+< Credits: >
+/i
+< Credits: >
+/i
+< Credits: >
+/i/i/i/i/i
+<          >
+/i
+<           >
+/i
+<            >
+/i
+<             >
+/i
+<              >
+/i
+< Greg Gilbert >
+/i
+< Greg Gilbert >
+/i
+< Greg Gilbert >
+/i/i/i/i/i/i
+<             >
+/i
+< Tim Sweeney >
+/i
+< Tim Sweeney >
+/i
+< Tim Sweeney >
+/i/i/i/i/i/i
+<             >
+/i
+<            M>
+/i
+<           My>
+/i
+<          My >
+/i
+<         My p>
+/i
+<        My pa>
+/i
+<       My par>
+/i
+<      My pare>
+/i
+<     My paren>
+/i
+<    My parent>
+/i
+<   My parents>
+/i
+<  My parents!>
+/i
+< My parents! >
+/i
+< My parents! >
+/i
+< My parents! >
+/i/i/i/i/i
+< !stnerap yM >
+/i/i/i/i/i/i
+<             >
+/i
+<             >
+/i
+<     dna     >
+/i
+<     dna     >
+/i
+<     dna     >
+/i/i/i/i
+<     and     >
+/i/i
+<.....and.....>
+/i/i
+<úúúúúandúúúúú>
+/i/i
+<ùùùùùandùùùùù>
+/i/i/i
+<             >
+/i/i
+< \\\ and /// >
+/i
+< ||| and ||| >
+/i
+< /// and \\\ >
+/i
+< --- and --- >
+/i
+< \\\ you! /// >
+/i
+< ||| you! ||| >
+/i
+< /// you! \\\ >
+/i
+< --- you! --- >
+/i/i/i
+<              >
+/i/i/i/i
+<             >
+/i
+<            >
+/i
+<           >
+/i
+<          >
+/i
+<         >
+/i
+<        >
+/i
+<       >
+/i
+<      >
+/i
+<     >
+/i
+<    >
+/i
+<   >
+/i
+<  >
+/i
+< >
+/i
+<>
+/i
+  
+/i
+#endgame
+:loop
+î---- The End ----3
+/i
+#send loop

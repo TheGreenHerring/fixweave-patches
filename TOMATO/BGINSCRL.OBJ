@@ -1,0 +1,60 @@
+@Scroll
+#end
+:touch
+#lock
+Welcome to...
+/i/i/i/i
+TOMATO MAN!
+/i/i/i/i
+In case you're wondering who Tomato Man
+is, I'll explain.
+/i
+Tomato Man was born on the planet 
+Tomatoe. He is the son of Mr. and Mrs.
+Tomaty. 
+/i
+One day, Tomato Man was walking home, when
+he was suddenly transported to another 
+world--Earth.
+/i
+Amazingly, he had all of his clothing,
+ammo, and other items.
+/i
+However, a creation from Hell escaped from
+Hell and was wreaking havoc on Earth at 
+the same time.
+/i
+They both managed to stumble upon each
+other, and Viper Man (the creation) stole
+his bags!
+/i
+How rude, huh?
+/i/i/i
+Your quest is to find Tomato Man's luggage
+and kill Viper Man!
+/i
+:loop
+Did you like the title screen?
+
+!yes; Yes, I did.
+!no; No, I didn't.
+/i#loop
+:no
+You suck!
+#endgame
+#end
+:yes
+Thanks! 
+/i/i
+You may pass.
+/i/i
+Here's ammo and stuff.
+#give ammo 100
+#give score 200
+#give health 100
+/i/i/i/i/i
+±±±±±≤≤≤≤≤€€€€€ 200 pts! €€€€€≤≤≤≤≤±±±±±
+/i/i/i/i/i
+#Entry1:poof
+#die
+#end
