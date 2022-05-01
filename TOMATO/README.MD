@@ -1,5 +1,5 @@
 # FixWeave patch for _Tomato Man Versus Viper Man_ by Greg Gilbert
-- Version 2
+- Version 2.01
 - Game location: https://museumofzzt.com/file/t/tomato/
 - Requires: FixWeave v1.0f or later
 
@@ -13,9 +13,12 @@ This is a replacement for my previous patch for _Tomato Man Versus Viper Man_. I
 * A board connection issue that prevents completion of the game, caused by a glaring design error, is fixed by opening up a path on the destination board for the player to enter.
 * The boss life meters are fixed so that, among other things, you can't break them by shooting the bosses too much.
 * The driving battle is made fairer by not activating the enemies until you're actually at the controls, preventing cheap hits. (Alas, not much can be done about your vehicle breaking apart while moving because of how ZZT 3.2 works, but at least every component can shoot--which actually works in your favor since it effectively increases your firing range. :) )
-* A possible performance issue on the final board is fixed by removing a fade effect object that does nothing other than run a no-idle loop from not finding any green normals to affect (suggesting the design at the end was originally drawn with them).
 
 Unlike the previous patch, all of the OBJ files that are loaded use code that will work in ZZT 3.2, meaning that any future tool to create patched versions of world files using FixWeave files will produce a world file that works in ZZT 3.2.
 
 \- The Green Herring  
 April 30, 2022
+
+Version 2.01 Changelog (May 1, 2021):
+* Further examination revealed that a special effect that otherwise goes unused due to a programming error is supposed to animate the border around the player at the end, and so it has been edited to make it run.
+* A cheat-only object has been fixed to be only touchable once like the others.

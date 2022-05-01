@@ -1,0 +1,12 @@
+#cycle 1
+:loop
+#change green invisible green normal
+/i
+#change green normal green breakable
+/i
+#change green breakable green water
+/i
+#change green water green invisible
+/i
+#send loop
+#end

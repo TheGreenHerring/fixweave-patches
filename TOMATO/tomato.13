@@ -2,13 +2,11 @@
 'by The Green Herring
 'April 30, 2022
 
-'Remove a fade effect object that does
-'nothing other than cause performance
-'issues with a no-idle loop from not
-'finding any green normals (suggesting the
-'text was originally drawn with them and
-'underwent a fade effect w/ this object).
-#put at 1 1 red black empty
+'Restore a fade effect object that fails
+'to run due to a programming error that
+'forces it into a no-idle loop due to the
+'lack of green normals to affect.
+#load at 1 1 endfade
 
 'Fix the "Yes" object so it cannot be
 'activated over and over.
